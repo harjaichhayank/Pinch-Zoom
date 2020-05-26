@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorNew">
+
+    <TextView
+        android:id="@+id/myTv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="This is my sample text for pinch zoom demo, you can zoom in and out using pinch zoom"
+        android:textColor="#7BDD13"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
